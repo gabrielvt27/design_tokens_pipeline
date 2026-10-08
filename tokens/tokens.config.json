@@ -1,0 +1,22 @@
+{
+  "$comment": "Configuração do pipeline de tokens. Ver README.md.",
+  "defaultModes": {
+    "color": "light",
+    "dimension": "comfortable",
+    "borderRadius": "rounded"
+  },
+  "hiddenCollections": [
+    "primitives",
+    "font"
+  ],
+  "unitlessTokenPatterns": [
+    "weight"
+  ],
+  "fontFamilyFallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+  "outputs": {
+    "css": "apps/web/src/tokens/tokens.css",
+    "typescript": "apps/web/src/tokens/tokens.ts",
+    "dart": "apps/flutter/lib/tokens/app_tokens.g.dart",
+    "remoteJsonDirectory": "build/remote"
+  }
+}

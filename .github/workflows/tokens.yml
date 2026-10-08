@@ -1,0 +1,49 @@
+name: tokens
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      # Falha se alguém mudou tokens/ sem rodar `npm run tokens`, ou editou o código gerado à mão.
+      - run: npm run tokens:check
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      # tsc -b: um token renomeado no Figma quebra aqui, não na tela do usuário.
+      - run: npm run build
+      - run: npm run lint
+
+  flutter:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/flutter
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.38.10
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test

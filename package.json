@@ -1,0 +1,15 @@
+{
+  "name": "design-tokens-pipeline",
+  "version": "1.0.0",
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "tokens:check": "node scripts/build-tokens.mjs --check",
+    "test": "node --test scripts/test/*.test.mjs"
+  },
+  "description": "Validação: tokens do Figma (DTCG) gerando código para React e Flutter.",
+  "devDependencies": {
+    "style-dictionary": "5.6.0"
+  },
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,60 @@
+{
+  "base": {
+    "spacing": {
+      "1x": {
+        "$type": "number",
+        "$value": 4
+      },
+      "2x": {
+        "$type": "number",
+        "$value": 8
+      },
+      "3x": {
+        "$type": "number",
+        "$value": 12
+      },
+      "4x": {
+        "$type": "number",
+        "$value": 16
+      },
+      "6x": {
+        "$type": "number",
+        "$value": 24
+      }
+    }
+  },
+  "semantic": {
+    "spacing": {
+      "inset": {
+        "$type": "number",
+        "$value": "{base.spacing.2x}"
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{base.spacing.1x}"
+      }
+    }
+  },
+  "component": {
+    "productCard": {
+      "padding": {
+        "$type": "number",
+        "$value": "{semantic.spacing.inset}"
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{semantic.spacing.gap}"
+      },
+      "imageHeight": {
+        "$type": "number",
+        "$value": 96
+      }
+    },
+    "button": {
+      "height": {
+        "$type": "number",
+        "$value": 40
+      }
+    }
+  }
+}

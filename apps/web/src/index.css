@@ -1,0 +1,14 @@
+@import './tokens/tokens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-semantic-surface-background);
+  color: var(--color-semantic-content-primary);
+  font-family: var(--typography-body-regular-font-family);
+  /* Mesma transição que o lerp do ThemeExtension faz no Flutter. */
+  transition: background-color 200ms ease;
+}

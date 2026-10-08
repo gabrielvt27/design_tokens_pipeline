@@ -1,0 +1,52 @@
+{
+  "semantic": {
+    "card": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "primitives",
+          "targetVariableName": "radius/lg"
+        }
+      }
+    },
+    "action": {
+      "$type": "number",
+      "$value": 999,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "primitives",
+          "targetVariableName": "radius/full"
+        }
+      }
+    },
+    "tag": {
+      "$type": "number",
+      "$value": 999,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "primitives",
+          "targetVariableName": "radius/full"
+        }
+      }
+    }
+  },
+  "component": {
+    "productCard": {
+      "surface": {
+        "$type": "number",
+        "$value": "{semantic.card}"
+      },
+      "tag": {
+        "$type": "number",
+        "$value": "{semantic.tag}"
+      }
+    },
+    "button": {
+      "primary": {
+        "$type": "number",
+        "$value": "{semantic.action}"
+      }
+    }
+  }
+}

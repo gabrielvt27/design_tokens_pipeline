@@ -1,0 +1,83 @@
+{
+  "$description": "Estilos de texto compostos. O export nativo do Figma não inclui Text Styles, então eles moram aqui, referenciando as variables da coleção `font` que vêm do Figma.",
+  "heading": {
+    "medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.headline}",
+        "fontWeight": "{font.base.weight.bold}",
+        "lineHeight": "{font.base.lineHeight.headline}",
+        "letterSpacing": "{font.base.letterSpacing.none}"
+      }
+    }
+  },
+  "body": {
+    "regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.body}",
+        "fontWeight": "{font.base.weight.regular}",
+        "lineHeight": "{font.base.lineHeight.body}",
+        "letterSpacing": "{font.base.letterSpacing.none}"
+      }
+    },
+    "strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.body}",
+        "fontWeight": "{font.base.weight.semibold}",
+        "lineHeight": "{font.base.lineHeight.body}",
+        "letterSpacing": "{font.base.letterSpacing.none}"
+      }
+    }
+  },
+  "price": {
+    "large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.subhead}",
+        "fontWeight": "{font.base.weight.bold}",
+        "lineHeight": "{font.base.lineHeight.subhead}",
+        "letterSpacing": "{font.base.letterSpacing.none}"
+      }
+    },
+    "old": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.small}",
+        "fontWeight": "{font.base.weight.regular}",
+        "lineHeight": "{font.base.lineHeight.small}",
+        "letterSpacing": "{font.base.letterSpacing.none}"
+      }
+    }
+  },
+  "caption": {
+    "strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.caption}",
+        "fontWeight": "{font.base.weight.semibold}",
+        "lineHeight": "{font.base.lineHeight.caption}",
+        "letterSpacing": "{font.base.letterSpacing.md}"
+      }
+    }
+  },
+  "button": {
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.base.family.primary}",
+        "fontSize": "{font.base.size.button}",
+        "fontWeight": "{font.base.weight.semibold}",
+        "lineHeight": "{font.base.lineHeight.button}",
+        "letterSpacing": "{font.base.letterSpacing.sm}"
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+/* GERADO por scripts/build-tokens.mjs a partir de tokens/. Não edite à mão. */
+
+:root {
+  --border-radius-semantic-card: 16px;
+  --border-radius-semantic-action: 8px;
+  --border-radius-semantic-tag: 4px;
+  --border-radius-component-product-card-surface: 16px;
+  --border-radius-component-product-card-tag: 4px;
+  --border-radius-component-button-primary: 8px;
+  --color-semantic-surface-background: #F7F7F8;
+  --color-semantic-surface-default: #FFFFFF;
+  --color-semantic-content-primary: #1C1D22;
+  --color-semantic-content-secondary: #7C7E88;
+  --color-semantic-border-subtle: #EDEDF0;
+  --color-semantic-action-primary: #8B5A2B;
+  --color-semantic-action-on-primary: #FFFFFF;
+  --color-semantic-highlight-background: #FDE7DD;
+  --color-semantic-highlight-content: #D9481C;
+  --color-component-product-card-surface: #FFFFFF;
+  --color-component-product-card-border: #EDEDF0;
+  --color-component-product-card-title: #1C1D22;
+  --color-component-product-card-price: #8B5A2B;
+  --color-component-product-card-old-price: #7C7E88;
+  --color-component-product-card-tag-background: #FDE7DD;
+  --color-component-product-card-tag-content: #D9481C;
+  --color-component-button-primary-background: #8B5A2B;
+  --color-component-button-primary-content: #FFFFFF;
+  --dimension-base-spacing-1x: 4px;
+  --dimension-base-spacing-2x: 8px;
+  --dimension-base-spacing-3x: 12px;
+  --dimension-base-spacing-4x: 16px;
+  --dimension-base-spacing-6x: 24px;
+  --dimension-semantic-spacing-inset: 16px;
+  --dimension-semantic-spacing-gap: 12px;
+  --dimension-component-product-card-padding: 16px;
+  --dimension-component-product-card-gap: 12px;
+  --dimension-component-product-card-image-height: 140px;
+  --dimension-component-button-height: 52px;
+  --typography-heading-medium-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-heading-medium-font-size: 20px;
+  --typography-heading-medium-font-weight: 700;
+  --typography-heading-medium-line-height: 26px;
+  --typography-heading-medium-letter-spacing: 0px;
+  --typography-body-regular-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-body-regular-font-size: 14px;
+  --typography-body-regular-font-weight: 400;
+  --typography-body-regular-line-height: 20px;
+  --typography-body-regular-letter-spacing: 0px;
+  --typography-body-strong-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-body-strong-font-size: 14px;
+  --typography-body-strong-font-weight: 600;
+  --typography-body-strong-line-height: 20px;
+  --typography-body-strong-letter-spacing: 0px;
+  --typography-price-large-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-price-large-font-size: 18px;
+  --typography-price-large-font-weight: 700;
+  --typography-price-large-line-height: 22px;
+  --typography-price-large-letter-spacing: 0px;
+  --typography-price-old-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-price-old-font-size: 12px;
+  --typography-price-old-font-weight: 400;
+  --typography-price-old-line-height: 16px;
+  --typography-price-old-letter-spacing: 0px;
+  --typography-caption-strong-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-caption-strong-font-size: 11px;
+  --typography-caption-strong-font-weight: 600;
+  --typography-caption-strong-line-height: 14px;
+  --typography-caption-strong-letter-spacing: 0.4px;
+  --typography-button-label-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --typography-button-label-font-size: 15px;
+  --typography-button-label-font-weight: 600;
+  --typography-button-label-line-height: 20px;
+  --typography-button-label-letter-spacing: 0.2px;
+}
+
+[data-border-radius="pill"] {
+  --border-radius-semantic-card: 16px;
+  --border-radius-semantic-action: 999px;
+  --border-radius-semantic-tag: 999px;
+  --border-radius-component-product-card-surface: 16px;
+  --border-radius-component-product-card-tag: 999px;
+  --border-radius-component-button-primary: 999px;
+}
+
+[data-border-radius="sharp"] {
+  --border-radius-semantic-card: 0;
+  --border-radius-semantic-action: 0;
+  --border-radius-semantic-tag: 0;
+  --border-radius-component-product-card-surface: 0;
+  --border-radius-component-product-card-tag: 0;
+  --border-radius-component-button-primary: 0;
+}
+
+[data-color="dark"] {
+  --color-semantic-surface-background: #111214;
+  --color-semantic-surface-default: #1C1D22;
+  --color-semantic-content-primary: #FFFFFF;
+  --color-semantic-content-secondary: #C5C6CC;
+  --color-semantic-border-subtle: #3F414A;
+  --color-semantic-action-primary: #D2A679;
+  --color-semantic-action-on-primary: #111214;
+  --color-semantic-highlight-background: #D9481C;
+  --color-semantic-highlight-content: #FFFFFF;
+  --color-component-product-card-surface: #1C1D22;
+  --color-component-product-card-border: #3F414A;
+  --color-component-product-card-title: #FFFFFF;
+  --color-component-product-card-price: #D2A679;
+  --color-component-product-card-old-price: #C5C6CC;
+  --color-component-product-card-tag-background: #D9481C;
+  --color-component-product-card-tag-content: #FFFFFF;
+  --color-component-button-primary-background: #D2A679;
+  --color-component-button-primary-content: #111214;
+}
+
+[data-dimension="compact"] {
+  --dimension-base-spacing-1x: 4px;
+  --dimension-base-spacing-2x: 8px;
+  --dimension-base-spacing-3x: 12px;
+  --dimension-base-spacing-4x: 16px;
+  --dimension-base-spacing-6x: 24px;
+  --dimension-semantic-spacing-inset: 8px;
+  --dimension-semantic-spacing-gap: 4px;
+  --dimension-component-product-card-padding: 8px;
+  --dimension-component-product-card-gap: 4px;
+  --dimension-component-product-card-image-height: 96px;
+  --dimension-component-button-height: 40px;
+}
